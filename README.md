@@ -17,7 +17,7 @@
 
 ```order-service``` - [Repo](https://github.com/andyung17/order-service-lab2-demo)
 <br/>```product-service``` - [Repo](https://github.com/andyung17/product-service-lab2-demo)
-<br/>```store-front``` -  [Repo](https://github.com/andyung17?tab=repositories)
+<br/>```store-front``` -  [Repo](https://github.com/andyung17/store-front-lab2-demo)
 <br/>```rabbitmq``` - [Repo](https://github.com/andyung17/RabbitMQ-lab2-demo)
 
 ---
@@ -32,7 +32,7 @@ In order to comply with the 12-factors, `order-service` and `product-service` we
 
 **Order-service:** [Repo](https://github.com/andyung17/order-service-lab2-demo)
 <br/>**Product-service:** [Repo](https://github.com/andyung17/product-service-lab2-demo)
-<br/>**Store-front:** [Repo](https://github.com/andyung17?tab=repositories)
+<br/>**Store-front:** [Repo](https://github.com/andyung17/store-front-lab2-demo)
 <br/>**RabbitMQ:** [Repo](https://github.com/andyung17/RabbitMQ-lab2-demo)
 
 - Factor 2 Dependencies: Using `npm install dotenv`, added support for the env file for `order-service`. Made sure that each service had all neeeded dependencies in their respective depedency management files.
