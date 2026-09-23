@@ -1,4 +1,4 @@
-# CST8915 Lab 1: Algonquin Pet Store on Azure VM
+# CST8915 Lab 2: 12-Factors with the Algonquin Pet Store
 
 **Student Name**: Andy Ung <br/>
 **Student ID**: 041299387 <br/>
