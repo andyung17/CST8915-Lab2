@@ -13,6 +13,15 @@
 
 ---
 
+## Connected Repos
+
+```order-service``` - [Repo](https://github.com/andyung17/order-service-lab2-demo)
+<br/>```product-service``` - [Repo](https://github.com/andyung17/product-service-lab2-demo)
+<br/>```store-front``` -  [Repo](https://github.com/andyung17?tab=repositories)
+<br/>```rabbitmq``` - [Repo](https://github.com/andyung17/RabbitMQ-lab2-demo)
+
+---
+
 ## Reflection Questions
 
 1. What changes did you make to the order-service and product-service to comply with the Configurations and Backing Services factors of the 12-Factor App methodology?
@@ -20,6 +29,12 @@
 In order to comply with the 12-factors, `order-service` and `product-service` were changed in the following ways
 
 - Factor 1 Codebase: Adding new distinct repos for `order-service` and `product-service`
+
+**Order-service:** [Repo](https://github.com/andyung17/order-service-lab2-demo)
+<br/>**Product-service:** [Repo](https://github.com/andyung17/product-service-lab2-demo)
+<br/>**Store-front:** [Repo](https://github.com/andyung17?tab=repositories)
+<br/>**RabbitMQ:** [Repo](https://github.com/andyung17/RabbitMQ-lab2-demo)
+
 - Factor 2 Dependencies: Using `npm install dotenv`, added support for the env file for `order-service`. Made sure that each service had all neeeded dependencies in their respective depedency management files.
 - Factor 3 Configurations: Added an `.env` for `order-service` and `product-service` and filled in the necessary connections and public ips to get each service to communicate with eachother over HTTPS
 - Factor 4 Backing Services: We want to treat resources such that they can be attached or detached, so a VM was spun up for the RabbitMQ service. `order-service` had a connection string to the rabbitmq service located in the `.env` file such that the service could be attached or detached at will. 
